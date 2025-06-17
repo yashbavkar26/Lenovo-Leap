@@ -1,0 +1,26 @@
+
+
+/* Tag Selector: Style for all paragraph elements */
+p {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Class Selector: Highlighted element */
+.highlight {
+    background-color: #ffff99;
+    padding: 10px;
+}
+
+/* ID Selector: Main title */
+#main-title {
+    font-size: 2.5em;
+    color: #007acc;
+}
+
+/* Attribute Selector: Text input styling */
+input[type="text"] {
+    border: 2px solid #007acc;
+    background-color: #f0f8ff;
+}
