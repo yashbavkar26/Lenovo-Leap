@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Segoe UI',sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background:linear-gradient(to right, rgb(25, 0, 54),#420101);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    align-items:center;
+}
+
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.nav-link{
+    list-style: none;
+    display:flex;
+    gap:1.5rem;
+}
+
+.nav-link a{
+    color:white;
+    text-decoration: none;
+    transition:color 0.3sec;
+
+}
+
+.nav-link a:hover{
+    color:aqua;
+}
+
+
+.hero{
+    background:linear-gradient(to right, rgb(25, 0, 54),#420101);
+    color:white;
+    padding:5rem 2rem;
+    text-align: center;
+    background-position: contain;
+    background-size: cover;
+}
+
+
+.hero h1{
+    font-size: 3rem;
+
+}
+
+.hero p{
+    font-size: 1.25rem;
+    margin-bottom:2rem;
+
+}
+
+.btn{
+    background-color: #00d8ff;
+    color:#fff;
+    padding:0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight:bold;
+    transition: color 0.3s;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+.feature .about .cta{
+    padding:4rem 2rem;
+    text-align:center;
+}
+
+.features h2,
+.about h2,
+.cta h2{
+
+    font-size: 2rem;
+    margin-bottom:2rem;
+}
+
+.features-grid{
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.feature-item{
+    background-color:#f4f4f4;
+    padding :2rem;
+    border-radius: 10px;
+    width:250px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+footer{
+    background-color: #1e1e2f;
+    color:white;
+    text-align:center;
+    padding:1rem 0;
+}
+
+.about{
+    
+    text-align: center;
+}
+
